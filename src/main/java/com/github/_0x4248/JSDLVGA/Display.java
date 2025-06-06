@@ -1,8 +1,6 @@
 package com.github._0x4248.JSDLVGA;
 
-
 import java.util.concurrent.ConcurrentLinkedQueue;
-
 
 import com.sun.jna.Memory;
 import io.github.libsdl4j.api.event.SDL_Event;
@@ -28,7 +26,6 @@ import static io.github.libsdl4j.api.render.SDL_RendererFlags.SDL_RENDERER_ACCEL
 import static io.github.libsdl4j.api.hints.SdlHintsConst.SDL_HINT_RENDER_SCALE_QUALITY;
 import static io.github.libsdl4j.api.pixels.SDL_PixelFormatEnum.SDL_PIXELFORMAT_ARGB8888;
 import static io.github.libsdl4j.api.render.SDL_TextureAccess.SDL_TEXTUREACCESS_STREAMING;
-
 
 public class Display implements Runnable {
     private SDL_Window window;
