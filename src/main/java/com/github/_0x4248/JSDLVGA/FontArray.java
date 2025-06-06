@@ -1,4 +1,4 @@
-package com.github._0x4248;
+package com.github._0x4248.JSDLVGA;
 
 public class FontArray {
     public static final int[][] charFont8x8Basic = {
